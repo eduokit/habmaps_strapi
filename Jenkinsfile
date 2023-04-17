@@ -2,5 +2,5 @@
 docker tagname: "alpeza/habmaps_strapi:latest",  
        dbuild: true,
        pullToRegistry: true, 
-       deploy: false,
+       deploy: true,
        credentialsId: 'dokerhub-user'

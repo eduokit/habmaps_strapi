@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_datra_frame_statuses",
+  "info": {
+    "displayName": "status",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.pos"
+    },
+    "type": {
+      "type": "string"
+    },
+    "ftime": {
+      "type": "datetime"
+    },
+    "bid": {
+      "type": "string"
+    }
+  }
+}

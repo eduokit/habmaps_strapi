@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_datra_frame_habs",
+  "info": {
+    "displayName": "hab"
+  },
+  "options": {},
+  "attributes": {
+    "hid": {
+      "type": "string"
+    },
+    "pos": {
+      "displayName": "pos",
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.pos"
+    },
+    "payload": {
+      "type": "json"
+    }
+  }
+}

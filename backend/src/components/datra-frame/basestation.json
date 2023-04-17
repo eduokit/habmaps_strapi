@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_datra_frame_basestations",
+  "info": {
+    "displayName": "basestation"
+  },
+  "options": {},
+  "attributes": {
+    "bid": {
+      "type": "string"
+    },
+    "pos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.pos"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_datra_frame_health",
+  "info": {
+    "displayName": "health",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bid": {
+      "type": "string"
+    },
+    "ftime": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_datra_frame_pos",
+  "info": {
+    "displayName": "pos"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lon": {
+      "type": "float"
+    }
+  }
+}

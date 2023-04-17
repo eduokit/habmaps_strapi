@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "last_seens",
+  "info": {
+    "singularName": "last-seen",
+    "pluralName": "last-seens",
+    "displayName": "last-seen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "lastSeen": {
+      "type": "datetime"
+    },
+    "pos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.pos"
+    },
+    "payload": {
+      "type": "json"
+    },
+    "counter": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

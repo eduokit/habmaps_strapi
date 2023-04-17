@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frames",
+  "info": {
+    "singularName": "frame",
+    "pluralName": "frames",
+    "displayName": "frame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "frame": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.frame"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_datra_frame_frames",
+  "info": {
+    "displayName": "frame"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "ftime": {
+      "type": "datetime"
+    },
+    "hab": {
+      "displayName": "hab",
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.hab"
+    },
+    "basestation": {
+      "displayName": "basestation",
+      "type": "component",
+      "repeatable": false,
+      "component": "datra-frame.basestation"
+    }
+  }
+}

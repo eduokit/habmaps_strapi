@@ -1,7 +1,7 @@
 FROM strapi/base:14
 
 WORKDIR /app
-COPY ./package*.json ./
+COPY ./backend/package*.json ./
 RUN npm ci
 COPY backend .
 ENV NODE_ENV production

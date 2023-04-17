@@ -6,6 +6,7 @@ RUN npm ci
 COPY backend .
 ENV NODE_ENV production
 
+RUN ls -a
 RUN npm run build
 EXPOSE 1337
 CMD ["npm", "start"]

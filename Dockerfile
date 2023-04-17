@@ -1,4 +1,5 @@
-FROM strapi/base:14
+#FROM strapi/base:14
+FROM node:16
 
 WORKDIR /app
 COPY ./backend/package*.json ./

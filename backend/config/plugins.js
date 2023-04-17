@@ -1,5 +1,11 @@
+const crypto = require('crypto');
+
 module.exports = {
-    //
+  'users-permissions': {
+    config: {
+      jwtSecret: env('JWT_SECRET') || crypto.randomBytes(16).toString('base64'),
+    },
+  },
     graphql: {
       config: {
         endpoint: '/graphql',

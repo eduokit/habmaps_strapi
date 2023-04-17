@@ -3,6 +3,7 @@ version: '3.9'
 services:
   strapi:
     image: alpeza/habmaps_strapi:latest
+    container_name: habmaps_strapi
     ports:
       - "1337:1337"
     volumes:
